@@ -72,7 +72,7 @@ const PhotoImage = document.querySelector('.PhotoStyleIMG');
 const PhotoButton = document.getElementById('PhotoButton');
 const PhotoSRCList = [];
 for (let i = 1; i <= 16; i++) {
-    PhotoSRCList.push(`sources/images/Photo${i}.jpg`);
+    PhotoSRCList.push(`sources/images/photo${i}.jpg`);
 }
 
 let lastRandomPhotoIndex = -1;
